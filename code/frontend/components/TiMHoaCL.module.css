@@ -201,7 +201,7 @@
   color: var(--color-text-muted);
   flex: 1;
   font-size: var(--text-note);
-  line-height: 1.55;
+  line-height: calc(var(--text-note) / 10);
   margin-block: var(--space-2) 0;
 }
 
