@@ -258,7 +258,7 @@
   flex: none;
   font-size: calc(var(--text-lead) + var(--border-width));
   font-weight: var(--font-weight-body);
-  line-height: 1;
+  line-height: calc(var(--border-width));
   width: calc(var(--space-3) + var(--border-width-strong));
 }
 
