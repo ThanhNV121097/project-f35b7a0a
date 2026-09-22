@@ -215,6 +215,14 @@
   color: var(--color-primary);
 }
 
+.icon path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--icon-stroke);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .copyright {
   margin: var(--space-8) 0 0;
   color: var(--color-text-muted);
