@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { DatHoaTruocContent, BookingField } from "../lib/mock/t-hoa-tr-c";
 import styles from "./DatHoaTruoc.module.css";
 
