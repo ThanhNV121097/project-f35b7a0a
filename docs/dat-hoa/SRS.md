@@ -103,8 +103,8 @@ Behaviour:
 ## 7. Dependencies and assumptions
 
 - **Depends on:** `home`, `mau-hoa`, and `lien-he` routes, for navigation links.
-- **Assumption:** Booking page exists in approved multi-page design even though saved `index.html` excerpt available to PM shows home page only; story implementation must use approved design preview for `/dat-hoa`.
-- **Assumption:** Form submission destination is not specified in approved design; if implementation adds backend submission, TL service contract defines service errors without adding unapproved UI states.
+- **Assumption:** Approved saved `index.html` shows home page only and links to `/dat-hoa`; SRS defines minimum static preorder guidance for that route without inventing online submission.
+- **Assumption:** Form submission destination is not specified in approved design; implementation must not add backend submission, success state, or error state unless TL service contract later adds it.
 
 | Open question | Proposed default | Who decides |
 |---|---|---|
