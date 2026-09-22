@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import type { FaqItem, FlowerCard, GalleryItem } from "../lib/mock/ti-m-hoa-c-l";
 import styles from "./TiMHoaCL.module.css";
 
