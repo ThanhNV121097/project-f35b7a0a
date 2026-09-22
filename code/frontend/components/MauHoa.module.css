@@ -29,7 +29,7 @@
 
 .brand {
   font-family: var(--font-display), Georgia, serif;
-  font-size: calc(var(--text-body) + var(--space-1));
+  font-size: calc(var(--space-5) - var(--space-1));
   font-weight: var(--font-weight-heading);
   letter-spacing: var(--tracking-brand);
   text-decoration: none;
