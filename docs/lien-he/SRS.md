@@ -50,7 +50,7 @@ Behaviour:
 |---|---|---|---|
 | AC-1 | Guest is on any supported viewport width from 320px upward | Guest opens `/lien-he` | Sections appear in order: nav, hero, map_hours, footer |
 | AC-2 | Guest opens `/lien-he` | Page renders navigation | Navigation shows brand `Tiệm hoa Cỏ Lạ`, links `Mẫu hoa`, `Giờ mở cửa`, and primary small button `Đặt hoa trước` |
-| AC-3 | Guest opens `/lien-he` | Page renders hero | Hero heading and lead text match approved design for contact page |
+| AC-3 | Guest opens `/lien-he` | Page renders hero | Hero heading `Giờ mở cửa và đường tới tiệm` is visible, and lead text says tiệm is on `Phố Phan Đình Phùng, Hà Nội` and confirms details by phone before delivery or pickup |
 | AC-4 | Guest opens `/lien-he` | Page renders Map & hours | Heading `Giờ mở cửa và đường tới tiệm` is visible |
 | AC-5 | Guest opens `/lien-he` | Page renders Map & hours | Address `Phố Phan Đình Phùng, Hà Nội` is visible with decorative location icon |
 | AC-6 | Approved design shows hours rows | Page renders Map & hours | Each visible day or day range and time value appears exactly as approved |
