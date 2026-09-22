@@ -33,18 +33,18 @@ export function TiMHoaCL({ content }: { content: HomeContent }) {
     <>
       <div className={styles.block} data-block-type="nav">
         <nav className={`${styles.nav} ${styles.navSticky}`}>
-          <a className={styles.brand} href="/">
+          <Link className={styles.brand} href="/">
             <span className={styles.brandText}>{content.nav.brand}</span>
-          </a>
+          </Link>
           <div className={styles.navLinks}>
             {content.nav.links.map((link) => (
-              <a key={link.href} href={link.href}>
+              <Link key={link.href} href={link.href}>
                 {link.label}
-              </a>
+              </Link>
             ))}
-            <a className={`${styles.btn} ${styles.btnPrimary} ${styles.btnSm}`} href={content.nav.action.href}>
+            <Link className={`${styles.btn} ${styles.btnPrimary} ${styles.btnSm}`} href={content.nav.action.href}>
               {content.nav.action.label}
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
