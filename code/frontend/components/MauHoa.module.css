@@ -202,6 +202,19 @@
   max-width: 44ch;
 }
 
+.footerContact p {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.icon {
+  width: var(--text-body);
+  height: var(--text-body);
+  flex: none;
+  color: var(--color-primary);
+}
+
 .copyright {
   margin: var(--space-8) 0 0;
   color: var(--color-text-muted);
