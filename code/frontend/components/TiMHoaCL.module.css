@@ -163,7 +163,7 @@
 .heroSub {
   color: var(--color-text-muted);
   font-size: var(--text-lead);
-  line-height: 1.6;
+  line-height: calc(var(--space-4) / 10);
   margin-block: var(--space-5) 0;
   max-width: 52ch;
 }
