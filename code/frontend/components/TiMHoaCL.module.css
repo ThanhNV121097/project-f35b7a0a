@@ -356,7 +356,7 @@
     font-size: var(--text-h2-grid);
     grid-column: 1;
     grid-row: 1 / span 40;
-    line-height: 1.2;
+    line-height: calc(var(--space-3) / 10);
     margin-top: -0.1em;
   }
 }
