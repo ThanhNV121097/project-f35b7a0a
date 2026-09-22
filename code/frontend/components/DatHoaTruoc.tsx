@@ -44,14 +44,14 @@ export default function DatHoaTruoc({ content }: Props) {
   return (
     <div className={styles.page}>
       <nav className={styles.nav} aria-label="Điều hướng chính">
-        <a className={styles.brand} href="/">
+        <Link className={styles.brand} href="/">
           {content.nav.brand}
-        </a>
+        </Link>
         <div className={styles.navLinks}>
           {content.nav.links.map((link) => (
-            <a className={link.primary ? styles.navPrimary : styles.navLink} href={link.href} key={link.href}>
+            <Link className={link.primary ? styles.navPrimary : styles.navLink} href={link.href} key={link.href}>
               {link.label}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>
