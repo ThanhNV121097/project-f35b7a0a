@@ -336,6 +336,10 @@
   width: calc(var(--space-4) + var(--border-width));
 }
 
+.icon path {
+  stroke-width: var(--icon-stroke);
+}
+
 @media (min-width: 940px) {
   .block > section:not(.hero):not(.gallery) {
     align-items: start;
