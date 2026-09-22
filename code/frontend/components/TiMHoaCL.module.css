@@ -371,7 +371,7 @@
   }
 
   .cardGrid {
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc(var(--space-9) + var(--space-9) - var(--space-2)), 1fr));
   }
 
   .galleryTrack {
