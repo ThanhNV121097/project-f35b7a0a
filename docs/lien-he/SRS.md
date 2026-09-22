@@ -102,7 +102,7 @@ Behaviour:
 
 - **Depends on:** `dat-hoa` route, for booking navigation.
 - **Depends on:** `mau-hoa` route, for sample flower navigation.
-- **Assumption:** Contact page exists in approved multi-page design even though saved `index.html` excerpt available to PM shows home page only; story implementation must use approved design preview for `/lien-he`.
+- **Assumption:** Saved approved `index.html` shows home `map_hours` content only; the dedicated `/lien-he` page reuses that approved heading, address, empty map-actions behaviour, shared navigation, and shared footer without inventing extra page copy.
 - **Assumption:** No external map provider is required unless approved contact page design includes an external map action or embed.
 
 | Open question | Proposed default | Who decides |
