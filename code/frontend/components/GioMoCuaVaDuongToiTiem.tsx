@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import type { LienHePageData } from "@/lib/mock/gi-m-c-a-v-ng-t-i-ti-m";
 import styles from "./GioMoCuaVaDuongToiTiem.module.css";
 
