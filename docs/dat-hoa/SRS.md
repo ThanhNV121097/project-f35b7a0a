@@ -36,13 +36,14 @@ Design system: `design/design-system.md`
 
 **Requirement DAT-HOA-001 — Render approved booking page**
 
-*As a* Guest, *I want to* view the Đặt hoa trước page, *so that* I can start a flower preorder using fields shown by approved design.
+*As a* Guest, *I want to* open the Đặt hoa trước page, *so that* I can see preorder guidance without unapproved submission behaviour.
 
 Behaviour:
 
 1. Guest opens `/dat-hoa`.
-2. Page renders these sections in order: Navigation, Hero, Booking form, Footer.
-3. Page uses approved dark editorial visual style, typography, colors, spacing, sticky navigation, hero, form field styling, primary button, note text, and footer defined in approved design and design system.
+2. Page renders these sections in order: Navigation, Hero, Booking form area, Footer.
+3. Page uses approved dark editorial visual style, typography, colors, spacing, sticky navigation, hero, form-area styling, primary button styling, note text, and footer defined in approved design and design system.
+4. Booking action is informational only: it must not send data, show validation, show success, show error, or persist an order unless a later approved service contract adds that behaviour.
 
 **Acceptance criteria** — each is proved by at least one test case in `docs/dat-hoa/test-cases/dat-hoa-truoc.md`, through story plan criteria.
 
@@ -50,13 +51,13 @@ Behaviour:
 |---|---|---|---|
 | AC-1 | Guest is on any supported viewport width from 320px upward | Guest opens `/dat-hoa` | Sections appear in order: nav, hero, booking_form, footer |
 | AC-2 | Guest opens `/dat-hoa` | Page renders navigation | Navigation shows brand `Tiệm hoa Cỏ Lạ`, links `Mẫu hoa`, `Giờ mở cửa`, and primary small button `Đặt hoa trước` |
-| AC-3 | Guest opens `/dat-hoa` | Page renders hero | Hero heading, lead text, and any approved hero action copy match the approved design for the booking page |
-| AC-4 | Guest opens `/dat-hoa` | Page renders booking form | Every visible label from approved design appears once and is associated with its input, select, or textarea |
-| AC-5 | Guest opens `/dat-hoa` | Page renders booking form | Form fields use approved dark rectangular styling, muted uppercase labels, accent border focus state, and responsive grid layout |
-| AC-6 | Guest fills form | Guest types valid text into text inputs and textarea | Typed text remains visible in field |
+| AC-3 | Guest opens `/dat-hoa` | Page renders hero | Hero heading states preorder intent for `Đặt hoa trước`, and lead text tells customers to prepare occasion, budget, preferred colors, recipient, and delivery timing |
+| AC-4 | Guest opens `/dat-hoa` | Page renders booking form area | Visible guidance fields or prompts cover name, phone, occasion, budget or flower style, message, delivery address, and delivery time |
+| AC-5 | Guest opens `/dat-hoa` | Page renders booking form area | Form-area controls or prompt cards use approved dark rectangular styling, muted uppercase labels, accent border focus state when interactive, and responsive grid layout |
+| AC-6 | Guest fills any editable field shown | Guest types valid text into text inputs and textarea | Typed text remains visible in field |
 | AC-7 | Guest uses selection field if shown | Guest chooses an available option | Selected option remains visible in field |
-| AC-8 | Guest opens `/dat-hoa` | Page renders booking form | Primary booking button text matches approved design and appears below form fields aligned to form start |
-| AC-9 | Guest opens `/dat-hoa` | Page renders booking form | Booking note or hint text shown in approved design is visible under the form |
+| AC-8 | Guest opens `/dat-hoa` | Page renders booking form area | Primary booking button text communicates calling or contacting the shop to finish preorder, not online submission |
+| AC-9 | Guest opens `/dat-hoa` | Page renders booking form area | Booking note says tiệm confirms flower availability and delivery fee/time by phone before preparing bouquet |
 | AC-10 | Guest opens `/dat-hoa` | Page renders Footer | Footer copy, contact address, and copyright match approved design |
 
 **Failure, boundary and permission behaviour**
