@@ -108,7 +108,7 @@ Behaviour:
 
 | Open question | Proposed default | Who decides |
 |---|---|---|
-| None | Render approved design exactly; do not invent success or error screens | Stakeholder |
+| None | Render static preorder guidance; do not invent online submission, success, or error screens | Stakeholder |
 
 ## 8. Traceability
 
