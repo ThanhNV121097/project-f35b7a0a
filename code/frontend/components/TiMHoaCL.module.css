@@ -114,7 +114,7 @@
 }
 
 .btnPrimary:hover {
-  opacity: .9;
+  opacity: calc(var(--space-9) / 100 + var(--space-1) / 100);
 }
 
 .btnGhost {
