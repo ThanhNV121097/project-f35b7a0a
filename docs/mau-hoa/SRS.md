@@ -51,7 +51,7 @@ Behaviour:
 |---|---|---|---|
 | AC-1 | Guest is on any supported viewport width from 320px upward | Guest opens `/mau-hoa` | Sections appear in order: nav, hero, menu_list, footer |
 | AC-2 | Guest opens `/mau-hoa` | Page renders navigation | Navigation shows brand `Tiệm hoa Cỏ Lạ`, links `Mẫu hoa`, `Giờ mở cửa`, and primary small button `Đặt hoa trước` |
-| AC-3 | Guest opens `/mau-hoa` | Page renders hero | Hero heading and lead text match approved design for sample flower page |
+| AC-3 | Guest opens `/mau-hoa` | Page renders hero | Hero heading `Mẫu hoa và giá tham khảo` is visible, and lead text explains samples depend on seasonal flowers from the morning market |
 | AC-4 | Approved Mẫu hoa data has four rows | Page renders item list | Exactly four rows are visible |
 | AC-5 | Approved Mẫu hoa data has four rows | Page renders item list | Rows include names `Bó hoa sinh nhật theo mùa`, `Bó hồng và cúc tana`, `Hoa cưới cầm tay`, `Hoa để bàn văn phòng` |
 | AC-6 | Approved Mẫu hoa data has four rows | Page renders item list | Rows include notes `Chọn màu theo yêu cầu`, `Mẫu tham khảo, hoa thay theo chợ sáng`, `Cần đặt trước`, `Gọn, dễ đặt trên bàn làm việc` where approved design shows notes |
