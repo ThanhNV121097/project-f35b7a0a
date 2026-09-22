@@ -64,11 +64,11 @@ Behaviour:
 
 | Case | Condition | Expected behaviour |
 |---|---|---|
-| Invalid input | Guest leaves a displayed required field empty and activates booking action | Not applicable: approved design shows no validation message, disabled state, success state, error state, or submitted state |
+| Invalid input | Guest leaves a displayed required field empty and activates booking action | No validation or submission occurs; booking action remains informational unless a later approved service contract adds submission handling |
 | Boundary | Guest enters very long text | Field accepts browser-managed text entry; approved design has no character limit message |
 | Not permitted | Guest not signed in | Not applicable: page is public and has no signed-in role |
-| Conflict | Multiple guests submit at same time | Not applicable: approved design has no persisted order state |
-| Upstream failure | External messaging or storage fails | Not applicable: approved design has no error state; any service error envelope belongs in TL service contract if backend is added |
+| Conflict | Multiple guests activate booking action at same time | Not applicable: approved design has no persisted order state |
+| Upstream failure | External messaging or storage fails | Not applicable: approved design has no external messaging or storage call |
 
 **Data touched**
 
