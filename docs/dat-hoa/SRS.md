@@ -88,7 +88,7 @@ Behaviour:
 | Screen | Section in design | Functions it serves | States that must exist |
 |---|---|---|---|
 | Booking page | `/dat-hoa`: nav, hero, booking_form, footer | DAT-HOA-001 | default |
-| Booking form | `booking_form` | DAT-HOA-001 | default, focus |
+| Booking form area | `booking_form` | DAT-HOA-001 | default, focus only when interactive fields are shown |
 
 ## 6. Non-functional requirements
 
