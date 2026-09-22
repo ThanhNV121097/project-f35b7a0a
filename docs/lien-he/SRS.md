@@ -75,7 +75,7 @@ Behaviour:
 |---|---|---|---|
 | Shop name | text | yes | Exact text `Tiệm hoa Cỏ Lạ` |
 | Navigation links | link list | yes | Targets: home, `mau-hoa/`, `lien-he/`, `dat-hoa/` as approved |
-| Page hero copy | text | yes | Matches approved contact page design |
+| Page hero copy | text | yes | Heading `Giờ mở cửa và đường tới tiệm`; lead text mentions `Phố Phan Đình Phùng, Hà Nội` and phone confirmation before delivery or pickup |
 | Section heading | text | yes | Exact text `Giờ mở cửa và đường tới tiệm` |
 | Address | text | yes | Exact text `Phố Phan Đình Phùng, Hà Nội` |
 | Hours rows | list | no | Appears only when approved contact page design shows hours |
