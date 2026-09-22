@@ -76,11 +76,11 @@ Behaviour:
 |---|---|---|---|
 | Shop name | text | yes | Exact text `Tiệm hoa Cỏ Lạ` |
 | Navigation links | link list | yes | Targets: home, `mau-hoa/`, `lien-he/`, `dat-hoa/` as approved |
-| Booking hero copy | text | yes | Matches approved booking page design |
-| Booking labels | label list | yes | Every visible label in approved design appears exactly once |
-| Booking field values | text/select/textarea | no | Guest-entered values remain editable in browser |
-| Booking button label | text | yes | Matches approved design |
-| Booking note | text | yes when shown | Matches approved design |
+| Booking hero copy | text | yes | States preorder intent and phone-confirmation model |
+| Booking prompts | label list | yes | Covers name, phone, occasion, budget or flower style, message, delivery address, and delivery time |
+| Booking field values | text/select/textarea | no | Guest-entered values remain editable in browser when fields are interactive |
+| Booking button label | text | yes | Communicates calling or contacting the shop, not online submission |
+| Booking note | text | yes | Says tiệm confirms flower availability and delivery fee/time by phone before preparing bouquet |
 | Footer copy | text | yes | Matches approved design |
 
 ## 5. Screens
