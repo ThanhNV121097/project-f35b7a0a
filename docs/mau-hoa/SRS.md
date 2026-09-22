@@ -75,10 +75,10 @@ Behaviour:
 |---|---|---|---|
 | Shop name | text | yes | Exact text `Tiệm hoa Cỏ Lạ` |
 | Navigation links | link list | yes | Targets: home, `mau-hoa/`, `lien-he/`, `dat-hoa/` as approved |
-| Page hero copy | text | yes | Matches approved sample flower page design |
+| Page hero copy | text | yes | Heading `Mẫu hoa và giá tham khảo`; lead text says samples depend on seasonal flowers from the morning market |
 | Flower name | text | yes | Four approved names listed in AC-5 |
 | Flower note | text | yes | Four approved notes listed in AC-6 |
-| Flower price | text | no | Appears only when approved design shows price text |
+| Flower price | text | no | Must not appear because approved design shows no prices |
 | Footer copy | text | yes | Matches approved design |
 
 ## 5. Screens
@@ -93,8 +93,8 @@ Behaviour:
 | Area | Requirement |
 |---|---|
 | Accessibility | Item list content is readable as text; row images, if approved design shows them, have product-specific alt text |
-| Responsive | Page works from 320px viewport width upward with no horizontal page scroll; menu rows do not clip names or prices |
-| Localisation | Customer-facing copy is Vietnamese; prices, if shown, use Vietnamese formatting as approved |
+| Responsive | Page works from 320px viewport width upward with no horizontal page scroll; menu rows do not clip names or notes |
+| Localisation | Customer-facing copy is Vietnamese; no price formatting is required because approved design shows no prices |
 | Motion | Page respects `prefers-reduced-motion: reduce`; motion elements remain visible without transform |
 
 ## 7. Dependencies and assumptions
@@ -102,7 +102,7 @@ Behaviour:
 - **Depends on:** `dat-hoa` route, for booking navigation.
 - **Depends on:** `lien-he` route, for contact navigation.
 - **Assumption:** Four Mẫu hoa rows are shared with `home` Highlights; if changed later, both modules need same content update.
-- **Assumption:** Sample page exists in approved multi-page design even though saved `index.html` excerpt available to PM shows home page only; story implementation must use approved design preview for `/mau-hoa`.
+- **Assumption:** Saved approved `index.html` shows home `feature_grid` content only; dedicated `/mau-hoa` reuses those approved four rows, shared navigation, and shared footer without inventing prices, filters, or extra menu groups.
 
 | Open question | Proposed default | Who decides |
 |---|---|---|
