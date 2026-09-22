@@ -77,7 +77,7 @@
 
 .navPrimary:hover,
 .button:hover {
-  opacity: .9;
+  opacity: 90%;
   transform: translateY(calc(var(--border-width) * -1));
 }
 
