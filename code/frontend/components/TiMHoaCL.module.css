@@ -289,13 +289,6 @@
   margin: 0;
 }
 
-.mapActions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-3);
-  margin-top: var(--space-6);
-}
-
 .footer {
   border-top: var(--border-width) solid var(--color-border);
   padding-block: var(--space-8) var(--space-7);
