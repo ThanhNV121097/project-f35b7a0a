@@ -55,8 +55,8 @@ Behaviour:
 | AC-4 | Approved Mẫu hoa data has four rows | Page renders item list | Exactly four rows are visible |
 | AC-5 | Approved Mẫu hoa data has four rows | Page renders item list | Rows include names `Bó hoa sinh nhật theo mùa`, `Bó hồng và cúc tana`, `Hoa cưới cầm tay`, `Hoa để bàn văn phòng` |
 | AC-6 | Approved Mẫu hoa data has four rows | Page renders item list | Rows include notes `Chọn màu theo yêu cầu`, `Mẫu tham khảo, hoa thay theo chợ sáng`, `Cần đặt trước`, `Gọn, dễ đặt trên bàn làm việc` where approved design shows notes |
-| AC-7 | Approved design shows prices for Mẫu hoa rows | Page renders item list | Each visible price appears beside its row, uses tabular numeric styling, and matches approved design text |
-| AC-8 | Approved design omits prices for a row | Page renders item list | Row does not invent a price; if approved design shows missing-price text, that exact text appears |
+| AC-7 | Guest opens `/mau-hoa` | Page renders item list | No price text is visible because approved design shows sample names and notes but no prices |
+| AC-8 | Guest opens `/mau-hoa` | Page renders item list | Page does not invent missing-price text or placeholder amounts |
 | AC-9 | Guest opens `/mau-hoa` | Page renders Footer | Footer copy, contact address, and copyright match approved design |
 
 **Failure, boundary and permission behaviour**
