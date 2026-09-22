@@ -20,18 +20,18 @@ export default function GioMoCuaVaDuongToiTiem({ data }: Props) {
     <>
       <header className={styles.block} data-block-type="nav">
         <nav className={styles.nav} aria-label="Main navigation">
-          <a className={styles.brand} href="/">
+          <Link className={styles.brand} href="/">
             {data.nav.brand}
-          </a>
+          </Link>
           <div className={styles.navLinks}>
             {data.nav.links.map((link) => (
-              <a key={link.href} href={link.href}>
+              <Link key={link.href} href={link.href}>
                 {link.label}
-              </a>
+              </Link>
             ))}
-            <a className={`${styles.button} ${styles.buttonSmall} ${styles.buttonPrimary}`} href={data.nav.action.href}>
+            <Link className={`${styles.button} ${styles.buttonSmall} ${styles.buttonPrimary}`} href={data.nav.action.href}>
               {data.nav.action.label}
-            </a>
+            </Link>
           </div>
         </nav>
       </header>
