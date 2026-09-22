@@ -8,7 +8,7 @@ Design system: `design/design-system.md`
 
 ## 1. Purpose
 
-Đặt hoa module gives visitors a dedicated `/dat-hoa` page for preorder intent. It presents approved booking form fields and guides customers to share enough information for Tiệm hoa Cỏ Lạ to confirm bouquet details.
+Đặt hoa module gives visitors a dedicated `/dat-hoa` page for preorder intent. Because approved `index.html` contains only navigation links to this page and no booking form markup, this module must not invent submission, validation, success, or storage behaviour. It may only render a static preorder page using approved shared navigation and footer content until a booking-page design is approved.
 
 ## 2. Actors
 
