@@ -157,7 +157,7 @@
 .heroHeadline {
   font-size: var(--text-hero);
   letter-spacing: var(--tracking-display);
-  line-height: 1.04;
+  line-height: calc(var(--text-caption) * var(--space-2) / 100);
   max-width: 20ch;
 }
 .heroSub {
