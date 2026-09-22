@@ -59,12 +59,12 @@ export function TiMHoaCL({ content }: { content: HomeContent }) {
             <h1 className={styles.heroHeadline}>{content.hero.title}</h1>
             <p className={styles.heroSub}>{content.hero.copy}</p>
             <div className={styles.heroActions}>
-              <a className={`${styles.btn} ${styles.btnPrimary}`} href={content.hero.primary.href}>
+              <Link className={`${styles.btn} ${styles.btnPrimary}`} href={content.hero.primary.href}>
                 {content.hero.primary.label}
-              </a>
-              <a className={`${styles.btn} ${styles.btnGhost}`} href={content.hero.secondary.href}>
+              </Link>
+              <Link className={`${styles.btn} ${styles.btnGhost}`} href={content.hero.secondary.href}>
                 {content.hero.secondary.label}
-              </a>
+              </Link>
             </div>
           </div>
         </section>
