@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --font-body: system-ui, sans-serif;
+  --font-display: Georgia, serif;
   --color-bg: #171411;
   --color-surface: #211c18;
   --color-text: #f3ebdd;
