@@ -159,7 +159,7 @@
 
 .footerCols {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(var(--space-page-max), calc(var(--space-9) * 2 + var(--space-2))), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(var(--space-section-gap), 1fr));
   gap: var(--space-7);
 }
 
