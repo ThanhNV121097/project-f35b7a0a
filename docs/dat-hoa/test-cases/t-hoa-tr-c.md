@@ -45,7 +45,7 @@ Check: measure_styles
 **Scenario**: Interactive booking control shows accent focus state
 **Given**: Guest opens `/dat-hoa` and booking form area includes at least one interactive input, select, textarea, link, or button.
 **When**: Guest moves keyboard focus to the first interactive booking form area control.
-**Then**: Focused control shows approved accent border focus state or native focus indicator consistent with approved design.
+**Then**: Focused control shows the approved accent border focus state: computed border color changes to the design accent color `#D08A9A`; native-only focus indicator without the accent border does not satisfy this case.
 Traces: SC-5 (DAT-HOA-001 AC-5)
 Check: interact_page
 
