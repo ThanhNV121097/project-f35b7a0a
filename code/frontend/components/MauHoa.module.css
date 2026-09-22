@@ -119,9 +119,12 @@
   line-height: 1.6;
 }
 
+.menuBand {
+  background: var(--color-surface);
+}
+
 .menuSection {
   padding-block: var(--space-9);
-  background: var(--color-surface);
 }
 
 .menuSection::before,
