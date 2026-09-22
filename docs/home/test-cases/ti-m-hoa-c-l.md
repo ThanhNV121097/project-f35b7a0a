@@ -157,7 +157,7 @@ Check: interact_page
 **Scenario**: Map and hours show approved heading, address, and decorative icon
 **Given**: Guest opens `/`.
 **When**: Page renders Map & hours section.
-**Then**: Heading `Giờ mở cửa và đường tới tiệm` and address `Phố Phan Đình Phùng, Hà Nội` are visible, and location icon in `section.map-hours .address svg` has `aria-hidden="true"`.
+**Then**: Heading `Giờ mở cửa và đường tới tiệm` and address `Phố Phan Đình Phùng, Hà Nội` are visible in the Map & hours section, and the decorative location SVG immediately before the address has `aria-hidden="true"`.
 Traces: SC-18 (HOME-001 AC-18)
 Check: render_url
 
