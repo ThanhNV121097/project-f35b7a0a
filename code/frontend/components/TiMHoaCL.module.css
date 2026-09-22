@@ -134,7 +134,7 @@
 }
 
 .heroSplit {
-  grid-template-columns: calc(100% + var(--space-5)) calc(100% - var(--space-5));
+  grid-template-columns: minmax(0, calc(50% + var(--space-5))) minmax(0, calc(50% - var(--space-5)));
 }
 
 .heroImg {
